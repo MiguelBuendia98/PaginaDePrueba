@@ -1,0 +1,44 @@
+
+:root
+{
+    --colorone: #EC8F25;
+}
+
+body
+{
+    background-color: rgb(101, 100, 100);
+}
+
+.container
+{
+    width: 70%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .seccion1
+{
+    background-color: var(--colorone);
+    padding: 10px;
+}
+
+.container .seccion1 h1
+{
+    text-align: center;
+    font-size: 40px;
+    font-family: monospace;
+}
+
+.container .seccion1 p
+{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+.container .seccion1 .img-container
+{
+    display: flex;
+    justify-content: center;
+}
